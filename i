@@ -7,8 +7,8 @@ BLUE='\033[0;34m'; CYAN='\033[0;36m'; BOLD='\033[1m'; NC='\033[0m'
 CHECK="${GREEN}✔${NC}"; CROSS="${RED}✖${NC}"
 INFO="${CYAN}➜${NC}"; WARN="${YELLOW}⚠${NC}"
 
-DYLIB_URL="https://github.com/LigmaAaron/glacier-releases/releases/download/v20260619234803/libGlacierDylib.dylib"
-UI_URL="https://github.com/LigmaAaron/glacier-releases/releases/download/v20260619234803/Glacier.app.zip"
+DYLIB_URL="https://github.com/LigmaAaron/glacier-releases/releases/download/v20260619234805/libGlacierDylib.dylib"
+UI_URL="https://github.com/LigmaAaron/glacier-releases/releases/download/v20260619234805/Glacier.app.zip"
 ROBLOX_VERSION="version-5e5ddbfddbdf4c6c"
 
 section() { echo; echo -e "${BOLD}${CYAN}==> $1${NC}"; }
