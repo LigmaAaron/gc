@@ -19,7 +19,7 @@ run_step() {
     else        printf "\r\033[K${RED}${CROSS} %s${NC}\n" "$msg"; exit 1; fi
 }
 
-clear
+clear 2>/dev/null || true
 echo -e "${BOLD}"
 cat <<'EOF'
    _____ _            _
